@@ -1,0 +1,46 @@
+.header-container {
+    background-color: #0181ff;
+}
+
+.header-h {
+    height: 80px;
+}
+
+.header-h > a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white
+}
+
+.trial-button {
+    margin-left: 20px;
+    background-color: black;
+    border: none;
+    padding: 10px;
+    color: white
+}
+
+@media only screen and (max-width: 600px) {
+    .header-h {
+        height: 100px;
+    }
+    .header-h > a {
+        text-decoration: none;
+        font-size: 26px;
+        color: white
+    }
+
+    .header-h :nth-child(2) {
+        width: 100%;
+    }
+
+    .trial-button {
+        margin-left: 20px;
+        background-color: black;
+        border: none;
+        flex: 1;
+        padding: 10px;
+        color: white
+    }
+
+}
